@@ -1,0 +1,28 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Raw C-MAPSS data and generated preprocessing
+CMAPSSData/*.txt
+CMAPSSData/*.pdf
+CMAPSSData/processed/
+
+# Model checkpoints, evaluation outputs, figures, and local submission artifacts
+results/
+intr/
+submission/
+.codex-build/
+
+# Common editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
